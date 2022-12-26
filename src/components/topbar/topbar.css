@@ -5,6 +5,7 @@
     background: linear-gradient(90deg, rgba(106,128,186,1) 31%, rgba(253,253,255,1) 94%);
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .topbarWrapper {
