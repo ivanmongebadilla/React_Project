@@ -14,7 +14,7 @@ const widgetsSmall = () => {
               <span className='widgetSmUserTitle'>Software Engineer</span>
             </div>
             <button className='widgetSmButton'>
-              <Visibility />
+              <Visibility className='widgetSmIcon' />
               Display
             </button>
           </li>
@@ -25,7 +25,7 @@ const widgetsSmall = () => {
               <span className='widgetSmUserTitle'>Software Engineer</span>
             </div>
             <button className='widgetSmButton'>
-              <Visibility />
+              <Visibility className='widgetSmIcon' />
               Display
             </button>
           </li>
@@ -36,7 +36,7 @@ const widgetsSmall = () => {
               <span className='widgetSmUserTitle'>Software Engineer</span>
             </div>
             <button className='widgetSmButton'>
-              <Visibility />
+              <Visibility className='widgetSmIcon' />
               Display
             </button>
           </li>
