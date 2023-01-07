@@ -48,3 +48,36 @@ export const userData = [
       "Active User": 7000,
     }
   ];
+
+  export const userRows = [
+    { id: 1, username: 'Jon Snow', 
+    avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg', 
+    email: 'jonsnow@email.com',
+    status:'active',
+    transaction:'$120.00' 
+    },
+    { id: 2, username: 'Other Name', 
+    avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg', 
+    email: 'othername@email.com',
+    status:'active',
+    transaction:'$120.00' 
+    },
+    { id: 3, username: 'Other Name2', 
+    avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg', 
+    email: 'othername2@email.com',
+    status:'active',
+    transaction:'$120.00' 
+    },
+    { id: 4, username: 'Other Name3', 
+    avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg', 
+    email: 'othername3@email.com',
+    status:'active',
+    transaction:'$120.00' 
+    },
+    { id: 5, username: 'Other Name4', 
+    avatar: 'https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg', 
+    email: 'othername4@email.com',
+    status:'active',
+    transaction:'$120.00' 
+    }
+  ];

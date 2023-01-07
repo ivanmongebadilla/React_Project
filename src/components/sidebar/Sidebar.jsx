@@ -2,6 +2,7 @@ import React from 'react';
 import './sidebar.css';
 import { LineStyle, Analytics, TrendingUp, PersonOutlined, Inventory,
 AttachMoney, Leaderboard, Email, DynamicFeed, Forum, ManageAccounts, Report } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -10,10 +11,12 @@ const Sidebar = () => {
             <div className='sidebarMenu'>
                 <h3 className='sidebarTitle'>Dashboard</h3>
                 <ul className='sidebarList'>
-                    <li className='sidebarListItem active'>
-                        <LineStyle className='sidebarIcon' />
-                        Home
-                    </li>
+                    <Link to="/">
+                        <li className='sidebarListItem active'>
+                            <LineStyle className='sidebarIcon' />
+                            Home
+                        </li>
+                    </Link>
                     <li className='sidebarListItem'>
                         <Analytics className='sidebarIcon' />
                         Analytics
@@ -27,10 +30,12 @@ const Sidebar = () => {
             <div className='sidebarMenu'>
                 <h3 className='sidebarTitle'>Quick Menu</h3>
                 <ul className='sidebarList'>
-                    <li className='sidebarListItem'>
-                        <PersonOutlined className='sidebarIcon' />
-                        Users
-                    </li>
+                    <Link to="/users">
+                        <li className='sidebarListItem'>
+                            <PersonOutlined className='sidebarIcon' />
+                            Users
+                        </li>
+                    </Link>
                     <li className='sidebarListItem'>
                         <Inventory className='sidebarIcon' />
                         Products
